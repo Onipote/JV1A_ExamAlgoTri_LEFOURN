@@ -1,0 +1,7 @@
+4. Le tri à bulles est considéré comme très lent. Pourquoi ? Peut-on avoir une idée du temps
+nécessaire à son exécution, estimer son ordre de grandeur ? Détaillez votre réponse.
+
+Le tri à bulles est considéré comme très lent car il doit, à chaque itération, déplacer la
+valeur maximum vers la fin de la liste sans pour autant trier ce qui le précède au fur et à mesure.
+La boucle doit donc se répéter un grand nombre de fois afin que tout soit trié. C'est une perte de
+temps importante.
